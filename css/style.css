@@ -3,12 +3,8 @@
   display: flex;
   justify-content: center;
   height: 100%;
-  padding: 3% 0;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -128,9 +124,6 @@ img, .item-2, .overlay {
 
 /* For Wrapping */
 @media only screen and (max-width: 1196px) {
-  * {
-    box-sizing: border-box;
-  }
 
   h1, h2 {
     text-align: center;
